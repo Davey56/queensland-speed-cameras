@@ -1,0 +1,19 @@
+
+{
+  "version": 2,
+  "updated": "2026-10-09",
+  "cameras": [
+    {
+      "name": "Old Cleveland Road & Cavendish Road, Coorparoo",
+      "latitude": -27.4945,
+      "longitude": 153.0596,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Main Street, Kangaroo Point",
+      "latitude": -27.472011,
+      "longitude": 153.035603,
+      "type": "FIXED_SPEED"
+    }
+  ]
+}
