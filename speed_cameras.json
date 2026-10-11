@@ -1,19 +1,1224 @@
-
 {
-  "version": 3,
-  "updated": "2026-10-09",
+  "version": 4,
+  "updated": "2026-10-11",
   "cameras": [
     {
-      "name": "Old Cleveland Road & Cavendish Road, Coorparoo",
-      "latitude": -27.4945,
+      "name": "Airport Link Tunnel (Northbound), Windsor",
+      "latitude": -27.425768,
+      "longitude": 153.032944,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Airport Link Tunnel (Southbound), Windsor",
+      "latitude": -27.425796,
+      "longitude": 153.033126,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Airport Link Tunnel (Northbound), Wooloowin",
+      "latitude": -27.412373,
+      "longitude": 153.044639,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Airport Link Tunnel (Southbound), Wooloowin",
+      "latitude": -27.412587,
+      "longitude": 153.044798,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Beaudesert Road and Compton Road, Calamvale",
+      "latitude": -27.611171,
+      "longitude": 153.051074,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bruce Highway, Burpengary",
+      "latitude": -27.16651,
+      "longitude": 152.9799,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Bruce Highway (Caloundra Road), Landsborough",
+      "latitude": -26.795162,
+      "longitude": 153.044073,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Bruce Highway (Johnston Road), Glasshouse Mountains",
+      "latitude": -26.919102,
+      "longitude": 152.994645,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "CLEM7 Tunnel (Northbound), Bowen Hills",
+      "latitude": -27.451675,
+      "longitude": 153.034108,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "CLEM7 Tunnel (Southbound), Bowen Hills",
+      "latitude": -27.450849,
+      "longitude": 153.033212,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "CLEM7 Tunnel (Northbound), Kangaroo Point",
+      "latitude": -27.483635,
+      "longitude": 153.03556,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "CLEM7 Tunnel (Southbound), Kangaroo Point",
+      "latitude": -27.48278,
+      "longitude": 153.03583,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Gold Coast Highway, Labrador",
+      "latitude": -27.9563,
+      "longitude": 153.40944,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Main Street, Kangaroo Point",
+      "latitude": -27.472285,
+      "longitude": 153.035671,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Nambour Connection Rd (Northbound), Woombye",
+      "latitude": -26.661665,
+      "longitude": 152.9683268,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Nicklin Way, Warana",
+      "latitude": -26.71399,
+      "longitude": 153.12987,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Pacific Motorway, Loganholme",
+      "latitude": -27.688407,
+      "longitude": 153.190822,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Pacific Motorway, Tarragindi",
+      "latitude": -27.5214,
+      "longitude": 153.05296,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Sunshine Motorway, Mooloolaba",
+      "latitude": -26.6911,
+      "longitude": 153.10966,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Warrego Highway, Muirlea",
+      "latitude": -27.57895,
+      "longitude": 152.74078,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Warrego Highway, Redwood",
+      "latitude": -27.56826,
+      "longitude": 151.99525,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Waterworks Road and Jubilee Terrace, Ashgrove",
+      "latitude": -27.445795,
+      "longitude": 152.989013,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Gympie Road at intersection with Rode Road, Chermside",
+      "latitude": -27.393105,
+      "longitude": 153.031127,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Vulture Street at intersection with Main Street, Woolloongabba",
+      "latitude": -27.483362,
+      "longitude": 153.035385,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Orange Grove Road at intersection with Kessels Road, Salisbury",
+      "latitude": -27.557036,
+      "longitude": 153.040706,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Compton Road at intersection with Gowan Road, Sunnybank Hills",
+      "latitude": -27.61116,
+      "longitude": 153.061508,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Margaret Street at intersection with William Street, Brisbane City",
+      "latitude": -27.47479,
+      "longitude": 153.025532,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Cordelia Street at intersection with Melbourne Street, South Brisbane",
+      "latitude": -27.475803,
+      "longitude": 153.015671,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Boundary Street at intersection with St Pauls Terrace, Spring Hill",
+      "latitude": -27.460907,
+      "longitude": 153.026231,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Lutwyche Road at intersection with Norman Avenue, Lutwyche",
+      "latitude": -27.418113,
+      "longitude": 153.035285,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Gympie Road at intersection with Robinson Road West, Aspley",
+      "latitude": -27.364063,
+      "longitude": 153.017089,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Duke Street at intersection with Juliette Street, Annerley",
+      "latitude": -27.504563,
+      "longitude": 153.038516,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ipswich Road at intersection with Venner Road, Annerley",
+      "latitude": -27.51421,
+      "longitude": 153.030719,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ann Street at intersection with James Street, Fortitude Valley",
+      "latitude": -27.455176,
+      "longitude": 153.038718,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ipswich Road at intersection with Cornwall Street, Woolloongabba",
+      "latitude": -27.500647,
+      "longitude": 153.035252,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Old Cleveland Road at intersection with Cavendish Road, Coorparoo",
+      "latitude": -27.494495,
       "longitude": 153.0596,
       "type": "RED_LIGHT_SPEED"
     },
     {
-      "name": "Main Street, Kangaroo Point",
-      "latitude": -27.472011,
-      "longitude": 153.035603,
+      "name": "Moggill Road at intersection with Cedarleigh Road/Marshall Lane, Kenmore",
+      "latitude": -27.507588,
+      "longitude": 152.947451,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "St Pauls Terrace at intersection with Brookes Street, Bowen Hills",
+      "latitude": -27.451728,
+      "longitude": 153.036089,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Musgrave Road at intersection with Windsor Road, Red Hill",
+      "latitude": -27.45446,
+      "longitude": 153.006689,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Logan Road at intersection with Holland Road, Holland Park",
+      "latitude": -27.52067,
+      "longitude": 153.063327,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bennetts Road at intersection with Crown Street/Macrossan Avenue, Norman Park",
+      "latitude": -27.483445,
+      "longitude": 153.064075,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Newnham Road at intersection with Broadwater Road, Mount Gravatt",
+      "latitude": -27.543265,
+      "longitude": 153.092536,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Coonan Street at intersection with Westminster Road, Indooroopilly",
+      "latitude": -27.501741,
+      "longitude": 152.975972,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Newman Road at intersection with Ellison Road, Geebung",
+      "latitude": -27.375601,
+      "longitude": 153.046746,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Wynnum Road at intersection with Northcliffe Street, Cannon Hill",
+      "latitude": -27.470279,
+      "longitude": 153.100615,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Wharf Street at intersection with Turbot Street, Spring Hill",
+      "latitude": -27.463314,
+      "longitude": 153.027985,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Stanley Street East at intersection with Lisburn Street, East Brisbane",
+      "latitude": -27.487548,
+      "longitude": 153.042366,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Logan Road at intersection with Broadwater Road, Mount Gravatt",
+      "latitude": -27.542343,
+      "longitude": 153.081478,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Oxley Road at intersection with Cliveden Avenue, Corinda",
+      "latitude": -27.548896,
+      "longitude": 152.98002,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Sandgate Road at intersection with Junction Road, Clayfield",
+      "latitude": -27.416298,
+      "longitude": 153.058243,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Vulture Street at intersection with Leopard Street, Woolloongabba",
+      "latitude": -27.484128,
+      "longitude": 153.032414,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Logan Road at intersection with Klump Road, Upper Mount Gravatt",
+      "latitude": -27.55336,
+      "longitude": 153.079705,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Leopard Street at intersection with Stanley Street, Woolloongabba",
+      "latitude": -27.48571,
+      "longitude": 153.032543,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Sandgate Road at intersection with Bayview Terrace, Clayfield",
+      "latitude": -27.419744,
+      "longitude": 153.054034,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Grange Road at intersection with Raymont Road, Grange",
+      "latitude": -27.422673,
+      "longitude": 153.014739,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Albany Creek Road at intersection with Gayford Street, Aspley",
+      "latitude": -27.363753,
+      "longitude": 153.015189,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Beams Road at intersection with Gympie Road, Carseldine",
+      "latitude": -27.346144,
+      "longitude": 153.012986,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ann Street at intersection with George Street, Brisbane City",
+      "latitude": -27.469358,
+      "longitude": 153.022371,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ann Street at intersection with North Quay, Brisbane City",
+      "latitude": -27.469873,
+      "longitude": 153.021365,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Lutwyche Road at intersection with Northey Street, Windsor",
+      "latitude": -27.443016,
+      "longitude": 153.030074,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Webster Road at intersection with Moree Street, Stafford",
+      "latitude": -27.403948,
+      "longitude": 153.018234,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Kessels Road at intersection with Macgregor Street, Upper Mount Gravatt",
+      "latitude": -27.560537,
+      "longitude": 153.079576,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Mains Road at intersection with Leadenhall Street, MacGregor",
+      "latitude": -27.568544,
+      "longitude": 153.064824,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Creek Road at intersection with Meadowlands Road, Carina",
+      "latitude": -27.491109,
+      "longitude": 153.101956,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Weller Road at intersection with Toohey Road, Tarragindi",
+      "latitude": -27.524292,
+      "longitude": 153.046765,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "George Street at intersection with Ann Street, Brisbane City",
+      "latitude": -27.469723,
+      "longitude": 153.022232,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Waterworks Road at intersection with Jubilee Terrace, Ashgrove",
+      "latitude": -27.446023,
+      "longitude": 152.989633,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Main Street at intersection with Vulture Street, Kangaroo Point",
+      "latitude": -27.484229,
+      "longitude": 153.035997,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "McCullough Street at intersection with Canna Street, Robertson",
+      "latitude": -27.571492,
+      "longitude": 153.06168,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Rochedale Road at intersection with Underwood Road, Rochedale South",
+      "latitude": -27.595773,
+      "longitude": 153.121827,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Strathpine Road at intersection with Bald Hills Road, Bald Hills",
+      "latitude": -27.31745,
+      "longitude": 153.010418,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Rose Street at intersection with Dawson Street, Wooloowin",
+      "latitude": -27.414529,
+      "longitude": 153.047556,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Moreton Bay Road at intersection with Old Cleveland Road/Finucane Road, Capalaba",
+      "latitude": -27.522506,
+      "longitude": 153.20014,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Lutwyche Road at intersection with Kedron Park Road, Kedron",
+      "latitude": -27.415183,
+      "longitude": 153.036472,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Browns Plains Road at intersection with Wembley Road, Browns Plains",
+      "latitude": -27.663726,
+      "longitude": 153.06217,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Browns Plains Road at intersection with Trulson Drive, Crestmead",
+      "latitude": -27.681001,
+      "longitude": 153.089109,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ewing Road at intersection with Smith Road, Woodridge",
+      "latitude": -27.628736,
+      "longitude": 153.109612,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Logan Road at intersection with Gunn Street, Underwood",
+      "latitude": -27.610018,
+      "longitude": 153.114619,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Anzac Avenue at intersection with Victoria Avenue, Redcliffe",
+      "latitude": -27.228835,
+      "longitude": 153.101478,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Morayfield Road at intersection with Caboolture River Road, Morayfield",
+      "latitude": -27.105778,
+      "longitude": 152.947408,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Anzac Avenue at intersection with Nathan Road, Kippa-Ring",
+      "latitude": -27.218425,
+      "longitude": 153.070879,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Warwick Road at intersection with Moffatt Street, Ipswich",
+      "latitude": -27.624644,
+      "longitude": 152.76006,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Limestone Street at intersection with East Street, Ipswich",
+      "latitude": -27.615473,
+      "longitude": 152.760901,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "South Station Road at intersection with Blackstone Road, Silkstone",
+      "latitude": -27.621667,
+      "longitude": 152.787648,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Chermside Road at intersection with Brisbane Road, East Ipswich",
+      "latitude": -27.614692,
+      "longitude": 152.771347,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Gold Coast Highway at intersection with Margaret Avenue, Broadbeach",
+      "latitude": -28.033842,
+      "longitude": 153.431218,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Southport-Nerang Road at intersection with Ashmore Road, Ashmore",
+      "latitude": -27.985216,
+      "longitude": 153.365597,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Gold Coast Highway at intersection with Ada Bell Way, Southport",
+      "latitude": -27.971921,
+      "longitude": 153.419828,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Gold Coast Highway at intersection with Stewart Road, Tugun",
+      "latitude": -28.141641,
+      "longitude": 153.492126,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Gold Coast Highway, Labrador at intersection with Olsen Avenue",
+      "latitude": -27.934703,
+      "longitude": 153.390802,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Musgrave Street at intersection with Coolangatta Road, Bilinga",
+      "latitude": -28.167149,
+      "longitude": 153.521974,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "North Street at intersection with Scarborough Street, Southport",
+      "latitude": -27.961502,
+      "longitude": 153.409642,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Kumbari Avenue at intersection with Smith Street, Southport",
+      "latitude": -27.961531,
+      "longitude": 153.39524,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bermuda Street at intersection with Rudd Street, Broadbeach Waters",
+      "latitude": -28.029004,
+      "longitude": 153.4102,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Southport-Nerang Road at intersection with Currumburra Road, Ashmore",
+      "latitude": -27.976805,
+      "longitude": 153.381374,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Gold Coast Highway at intersection with Government Road, Labrador",
+      "latitude": -27.935758,
+      "longitude": 153.401421,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Olsen Ave (Labrador-Carrara Road) at intersection with Napper Road, Arundel",
+      "latitude": -27.954299,
+      "longitude": 153.383429,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Government Road at intersection with Central Street, Labrador",
+      "latitude": -27.948156,
+      "longitude": 153.398009,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Wardoo Street at intersection with Queen Street, Southport",
+      "latitude": -27.969871,
+      "longitude": 153.394019,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Smith Street at intersection with Kumbari Avenue, Southport",
+      "latitude": -27.961708,
+      "longitude": 153.394636,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bermuda Street at intersection with Cottesloe Drive, Mermaid Waters",
+      "latitude": -28.064913,
+      "longitude": 153.418548,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Townson Avenue at intersection with Nineteenth Avenue, Palm Beach",
+      "latitude": -28.111389,
+      "longitude": 153.462776,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bermuda Street at intersection with Christine Avenue, Burleigh Waters",
+      "latitude": -28.086238,
+      "longitude": 153.425907,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Markeri Street at intersection with Bermuda Street, Clear Island Waters",
+      "latitude": -28.048497,
+      "longitude": 153.406601,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Turpin Road at intersection with Central Street, Labrador",
+      "latitude": -27.948791,
+      "longitude": 153.402038,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Gold Coast Highway at intersection with Discovery Drive, Helensvale",
+      "latitude": -27.92271,
+      "longitude": 153.337713,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "James Street at intersection with Kitchener Street, Rangeville",
+      "latitude": -27.570626,
+      "longitude": 151.964818,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bridge Street at intersection with Holberton Street, Newtown, Toowoomba",
+      "latitude": -27.548727,
+      "longitude": 151.934439,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "James Street at intersection with Neil Street, South Toowoomba",
+      "latitude": -27.569146,
+      "longitude": 151.954476,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "James Street at intersection with Pechey Street, South Toowoomba",
+      "latitude": -27.568283,
+      "longitude": 151.947399,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "James Street at intersection with Mackenzie Street, Rangeville",
+      "latitude": -27.57129,
+      "longitude": 151.970306,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Tor Street at intersection with Hursley Road, Newtown, Toowoomba",
+      "latitude": -27.561087,
+      "longitude": 151.927882,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Charters Towers Road at intersection with Boundary Street, Hyde Park",
+      "latitude": -19.272107,
+      "longitude": 146.804808,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ross River Road at intersection with Anne Street, Aitkenvale",
+      "latitude": -19.296842,
+      "longitude": 146.767514,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Railway Avenue at intersection with Putt Street, Railway Estate",
+      "latitude": -19.277673,
+      "longitude": 146.815766,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Woolcock Street at intersection with Kings Road, Hyde Park",
+      "latitude": -19.271212,
+      "longitude": 146.793105,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Charters Towers Road at intersection with Bayswater Road, Hyde Park",
+      "latitude": -19.277644,
+      "longitude": 146.799979,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Nathan Street at intersection with Bergin Road, Aitkenvale",
+      "latitude": -19.302466,
+      "longitude": 146.761131,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Woolcock Street at intersection with Kings Road, West End",
+      "latitude": -19.270882,
+      "longitude": 146.792345,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ross River Road at intersection with Gulliver St, Mundingburra",
+      "latitude": -19.29522,
+      "longitude": 146.780972,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Musgrave Street at intersection with High Street, Berserker",
+      "latitude": -23.358475,
+      "longitude": 150.523268,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "George Street at intersection with Fitzroy Street, Rockhampton City",
+      "latitude": -23.380444,
+      "longitude": 150.505483,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Fitzroy Street at intersection with Bolsover Street, Rockhampton City",
+      "latitude": -23.37733,
+      "longitude": 150.510729,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "George Street at intersection with Albert Street, Rockhampton City",
+      "latitude": -23.375783,
+      "longitude": 150.50177,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Pease Street at intersection with Hoare Street, Manoora",
+      "latitude": -16.922464,
+      "longitude": 145.740238,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Sheridan Street at intersection with James Street, Cairns North",
+      "latitude": -16.90866,
+      "longitude": 145.761084,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Mulgrave Road at intersection with McCoombe Street, Mooroobool",
+      "latitude": -16.938351,
+      "longitude": 145.74608,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Shakespeare Street at intersection with Sydney Street, Mackay",
+      "latitude": -21.147433,
+      "longitude": 149.185956,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bruce Highway at intersection with Sams Road, Mount Pleasant",
+      "latitude": -21.128768,
+      "longitude": 149.162847,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Gordon Street at intersection with Milton Street, Mackay",
+      "latitude": -21.142115,
+      "longitude": 149.177732,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bruce Highway at intersection with Gordon Street, Mackay",
+      "latitude": -21.143339,
+      "longitude": 149.174721,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Nambour Connection Road at intersection with Bli Bli Road, Nambour",
+      "latitude": -26.616436,
+      "longitude": 152.969116,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Mooloolaba Road at intersection with Sugar Road, Buderim",
+      "latitude": -26.675614,
+      "longitude": 153.096501,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Nicklin Way at intersection with Beerburrum Street, Battery Hill",
+      "latitude": -26.780358,
+      "longitude": 153.125472,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Nicklin Way at intersection with Wyanda Drive, Warana",
+      "latitude": -26.730523,
+      "longitude": 153.129309,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Alexandra Parade at intersection with Okinja Road, Alexandra Headland",
+      "latitude": -26.665025,
+      "longitude": 153.105726,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bruce Highway at intersection with Monkland Street, Gympie",
+      "latitude": -26.191977,
+      "longitude": 152.657906,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Nicklin Way at intersection with Jessica Boulevard, Minyama",
+      "latitude": -26.700139,
+      "longitude": 153.123228,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Ferry Street at intersection with Alice Street, Maryborough",
+      "latitude": -25.536615,
+      "longitude": 152.694593,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Walker Street at intersection with Pallas Street, Maryborough",
+      "latitude": -25.527954,
+      "longitude": 152.696207,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Saltwater Creek Road at intersection with Woodstock Street, Maryborough",
+      "latitude": -25.525839,
+      "longitude": 152.707505,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Alice Street at intersection with Lennox Street, Maryborough",
+      "latitude": -25.539983,
+      "longitude": 152.698427,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Takalvan Street at intersection with Bourbong Street, Bundaberg West",
+      "latitude": -24.86983,
+      "longitude": 152.336741,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Takalvan Street at intersection with Johanna Street, Kensington",
+      "latitude": -24.887485,
+      "longitude": 152.321699,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Old Cleveland Road at intersection with Gateway Motorway, Belmont",
+      "latitude": -27.504187,
+      "longitude": 153.12406,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Old Cleveland Road at intersection with Gateway Motorway, Belmont",
+      "latitude": -27.502593,
+      "longitude": 153.123948,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Old Cleveland Road at intersection with Gateway Motorway, Belmont",
+      "latitude": -27.502867,
+      "longitude": 153.125087,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Old Cleveland Road at intersection with Gateway Motorway, Belmont",
+      "latitude": -27.504236,
+      "longitude": 153.125506,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Bridge Street at intersection with McDougall Street, Wilsonton",
+      "latitude": -27.538562,
+      "longitude": 151.911462,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bridge Street at intersection with McDougall Street, Wilsonton",
+      "latitude": -27.538072,
+      "longitude": 151.911011,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Gympie Road at intersection with Zillmere Road, Aspley",
+      "latitude": -27.355932,
+      "longitude": 153.016533,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Stanley Street at intersection with Leopard Street, Woolloongabba",
+      "latitude": -27.485961,
+      "longitude": 153.032801,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Lutwyche Road at intersection with Albion Road, Windsor",
+      "latitude": -27.4284,
+      "longitude": 153.03297,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Lutwyche Road at intersection with Kedron Park Road, Kedron",
+      "latitude": -27.415299,
+      "longitude": 153.036379,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Kessels Road at the intersection with Mains Road, Nathan (east bound)",
+      "latitude": -27.560765,
+      "longitude": 153.065681,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Kessels Road at the intersection with Mains Road, Nathan (west bound)",
+      "latitude": -27.561052,
+      "longitude": 153.066706,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Gold Coast Highway at Broadbeach",
+      "latitude": -28.02445,
+      "longitude": 153.42874,
       "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Morayfield Road at intersection with Devereaux Drive, Morayfield",
+      "latitude": -27.1029816,
+      "longitude": 152.948184,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Kingston Road at intersection with Muchow Road, Waterford West",
+      "latitude": -27.6861692,
+      "longitude": 153.1223533,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Logan Road at intersection with Newnham Road, Upper Mount Gravatt",
+      "latitude": -27.5662768,
+      "longitude": 153.0879539,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Sheridan Street at intersection with Upwards Street, Cairns North",
+      "latitude": -16.9169485,
+      "longitude": 145.7679024,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Riverway Drive at intersection with Bruce Highway off-ramp eastbound, Condon",
+      "latitude": -19.3261556,
+      "longitude": 146.7273872,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bruce Highway, southbound from Landsborough to Elimbah",
+      "latitude": -26.7952051,
+      "longitude": 153.044293,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Bruce Highway, southbound from Landsborough to Elimbah",
+      "latitude": -27.02605,
+      "longitude": 152.977799,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Cunningham Highway, Warwick at intersection with Fitzroy Street",
+      "latitude": -28.2145,
+      "longitude": 152.035261111111,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Clontarf-Anzac Avenue Road at intersection with Boardman Road, Kippa-Ring",
+      "latitude": -27.2263833333333,
+      "longitude": 153.084563888889,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Glenlyon Street, Gladstone Central at intersection with Tank Street",
+      "latitude": -23.8500277777778,
+      "longitude": 151.257372222222,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Brisbane-Beenleigh Road, Edens Landing at intersection with Castile Crescent",
+      "latitude": -27.7015222222222,
+      "longitude": 153.158716666667,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bruce Highway, Mount Sheridan at intersection with Coombs Street",
+      "latitude": -16.9860388888889,
+      "longitude": 145.742258333333,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bruce Highway, Gympie at intersection with Monkland Street",
+      "latitude": -26.1923027777778,
+      "longitude": 152.658127777778,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Cunningham Highway, Warwick at intersection with Fitzroy Street",
+      "latitude": -28.2145,
+      "longitude": 152.035261111111,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Ipswich-Cunningham Highway Connection Road (Warwick Road) at intersection with Cunningham Highway, Yamanto",
+      "latitude": -27.6633416666667,
+      "longitude": 152.738602777778,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Redland Sub Arterial Road at the intersection with Gateway Motorway, Mackenzie",
+      "latitude": -27.5451305555556,
+      "longitude": 153.117738888889,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Old Logan Road, Camira at intersection with Alice Street",
+      "latitude": -27.6201388888889,
+      "longitude": 152.9149,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Bruce Highway, Rockhampton at intersection with High Street",
+      "latitude": -23.3565638888889,
+      "longitude": 150.518025,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Toowoomba Bypass (Warrego Highway A2 and Gore Highway A39)",
+      "latitude": -27.60471,
+      "longitude": 151.78627,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Toowoomba Bypass (Warrego Highway A2 and Gore Highway A39)",
+      "latitude": -27.51541,
+      "longitude": 152.0259,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Legacy Way (Toowong to Kelvin Grove)",
+      "latitude": -27.474777938828,
+      "longitude": 152.98324459796,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Legacy Way (Toowong to Kelvin Grove)",
+      "latitude": -27.4569594055127,
+      "longitude": 153.011393302737,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Browns Plains Road at the intersection with Commerce Drive",
+      "latitude": -27.6617547,
+      "longitude": 153.0458803,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Kingston Road at the intersection with Rudge Street",
+      "latitude": -27.6251782,
+      "longitude": 153.1167489,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Nerang-Broadbeach Road at the intersection with Southport-Burleigh Road",
+      "latitude": -28.035528,
+      "longitude": 153.409137,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Sheridan Street at the intersection with Florence Street",
+      "latitude": -16.92006,
+      "longitude": 145.770736,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Mulgrave Road at the intersection with Florence Street",
+      "latitude": -16.923724,
+      "longitude": 145.76696,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Warrego Highway (Muirlea to Bundamba)",
+      "latitude": -27.58954,
+      "longitude": 152.82484,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Warrego Highway (Muirlea to Bundamba)",
+      "latitude": -27.57926,
+      "longitude": 152.74021,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Takalvan Street at intersection with Walker Street, Millbank",
+      "latitude": -24.877496,
+      "longitude": 152.330068,
+      "type": "RED_LIGHT"
+    },
+    {
+      "name": "Cunningham Highway, New Chum to Yamanto",
+      "latitude": -27.617874,
+      "longitude": 152.822882,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Cunningham Highway, New Chum to Yamanto",
+      "latitude": -27.663076,
+      "longitude": 152.75819,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Cunningham Highway, Willowbank to Coleyville",
+      "latitude": -27.68246,
+      "longitude": 152.68087,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Cunningham Highway, Willowbank to Coleyville",
+      "latitude": -27.798402,
+      "longitude": 152.627281,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "D’Aguilar Highway, Woodford",
+      "latitude": -26.927729,
+      "longitude": 152.750314,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "D’Aguilar Highway, Glenfern",
+      "latitude": -26.930366,
+      "longitude": 152.608899,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "D’Aguilar Highway, Woodford to Glenfern",
+      "latitude": -26.927684,
+      "longitude": 152.750378,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "D’Aguilar Highway, Woodford to Glenfern",
+      "latitude": -26.930343,
+      "longitude": 152.608933,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Kuranda Range Road, Kuranda",
+      "latitude": -16.82494,
+      "longitude": 145.651386,
+      "type": "FIXED_SPEED"
+    },
+    {
+      "name": "Pacific Motorway (M1), Gaven/Arundel",
+      "latitude": -27.95057,
+      "longitude": 153.34214,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Pacific Motorway (M1), Beenleigh/Eagleby",
+      "latitude": -27.71923,
+      "longitude": 153.21245,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Pacific Motorway (M1), Oxenford/Helensvale",
+      "latitude": -27.88461,
+      "longitude": 153.31531,
+      "type": "POINT_TO_POINT"
+    },
+    {
+      "name": "Kingston Road, Waterford West at intersection with Chambers Flat Road",
+      "latitude": -27.678015,
+      "longitude": 153.121287,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Kingston Road, Loganlea at intersection with Station Road",
+      "latitude": -27.668638,
+      "longitude": 153.121849,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Wynnum Road, Tingalpa at intersection with Gateway Motorway (on ramp)",
+      "latitude": -27.474313,
+      "longitude": 153.117738,
+      "type": "RED_LIGHT_SPEED"
+    },
+    {
+      "name": "Johnson Road, Hillcrest at intersection with Central Court",
+      "latitude": -27.660249,
+      "longitude": 153.036619,
+      "type": "RED_LIGHT_SPEED"
     }
   ]
 }
